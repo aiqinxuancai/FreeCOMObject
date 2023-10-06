@@ -13,10 +13,10 @@
 void ReleaseCOMObject(void* p)
 {
     IUnknown* pUnknown = reinterpret_cast<IUnknown*>(p);
-         if (pUnknown != nullptr)
-         {
-         pUnknown->Release();
-         }
+    if (pUnknown != nullptr)
+    {
+        pUnknown->Release();
+    }
 }
 
 
