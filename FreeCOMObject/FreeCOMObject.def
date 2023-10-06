@@ -1,0 +1,3 @@
+LIBRARY "FreeCOMObject"
+EXPORTS
+ReleaseCOMObject @1
