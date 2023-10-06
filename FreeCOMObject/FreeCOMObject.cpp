@@ -16,6 +16,7 @@ void ReleaseCOMObject(void* p)
     if (pUnknown != nullptr)
     {
         pUnknown->Release();
+        //MessageBoxA(0, "a", "v", 0);
     }
 }
 
